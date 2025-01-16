@@ -3,13 +3,8 @@ package dev.queenellivair.plushies.item;
 import dev.queenellivair.plushies.ElliesVanillaPlushies;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.block.*;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -21,6 +16,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
 
+    public ModBlocks(AbstractBlock.Settings settings) {
+    }
 
     public static Block register(Block block, String name, boolean shouldRegisterItem) {
         // Register the block and its item.
@@ -35,6 +32,8 @@ public class ModBlocks {
 
         return Registry.register(Registries.BLOCK, id, block);
     }
+
+
     public static final RegistryKey<ItemGroup> CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(Registries.ITEM_GROUP.getKey(), new Identifier(ElliesVanillaPlushies.MOD_ID, "item_group"));
     public static final ItemGroup CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
             .icon(() -> new ItemStack(ModBlocks.FOX_PLUSH))
@@ -46,7 +45,6 @@ public class ModBlocks {
             "fox_plush",
             true
     );
-
 
     public static void initialize() {
 
