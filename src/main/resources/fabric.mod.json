@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
 	"id": "ellies-vanilla-plushies",
-	"version": "${version}",
+	"version": "0.0.1",
 	"name": "Ellie's Vanilla Plushies",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Fabric 1.20.1 mod that adds plushies of vanilla mobs",
 	"authors": [
-		"Me!"
+		"QueenEllivair"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
