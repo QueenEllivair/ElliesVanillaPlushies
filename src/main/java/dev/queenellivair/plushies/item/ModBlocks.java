@@ -3,7 +3,6 @@ package dev.queenellivair.plushies.item;
 import dev.queenellivair.plushies.ElliesVanillaPlushies;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -43,7 +42,7 @@ public class ModBlocks {
             .build();
 
     public static final Block FOX_PLUSH = register(
-            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL)),
+            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL).nonOpaque()),
             "fox_plush",
             true
     );
