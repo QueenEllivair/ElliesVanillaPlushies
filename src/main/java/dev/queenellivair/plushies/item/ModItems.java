@@ -37,6 +37,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ModItems.CUSTOM_ITEM_GROUP_KEY).register((itemGroup) -> {
             itemGroup.add(ModBlocks.FOX_PLUSH.asItem());
+
         });
 
     }
