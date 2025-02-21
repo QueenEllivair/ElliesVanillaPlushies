@@ -43,6 +43,8 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ModItems.CUSTOM_ITEM_GROUP_KEY).register((itemGroup) -> {
             itemGroup.add(ModBlocks.FOX_PLUSH.asItem());
+            itemGroup.add(ModBlocks.BAT_PLUSH.asItem());
+            itemGroup.add(ModBlocks.BEE_PLUSH.asItem());
             itemGroup.add(ModItems.PLUSH_BASE);
         });
 

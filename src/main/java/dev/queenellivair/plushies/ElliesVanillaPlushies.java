@@ -25,5 +25,4 @@ public class ElliesVanillaPlushies implements ModInitializer {
 
 		LOGGER.info("Plushies!!!");
 	}
-
 }
