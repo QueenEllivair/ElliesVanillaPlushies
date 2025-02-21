@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#OW"
+    ],
+    "key": {
+        "#": {
+            "item": "ellies-vanilla-plushies:plush_base"
+        },
+        "O": {
+            "item": "minecraft:orange_wool"
+        },
+        "W": {
+            "item": "minecraft:white_wool"
+        }
+    },
+    "result": {
+            "item": "ellies-vanilla-plushies:fox_plush",
+            "count": 1
+    }
+}

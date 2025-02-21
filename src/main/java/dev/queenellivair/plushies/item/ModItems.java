@@ -1,6 +1,7 @@
 package dev.queenellivair.plushies.item;
 
 import dev.queenellivair.plushies.ElliesVanillaPlushies;
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
@@ -30,6 +31,11 @@ public class ModItems {
             .displayName(Text.translatable("itemGroup.plushies"))
             .build();
 
+    public static final Item PLUSH_BASE = register(
+            new Item(new FabricItemSettings()),
+            "plush_base"
+
+    );
 
     public static void initialize(){
 
@@ -37,8 +43,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ModItems.CUSTOM_ITEM_GROUP_KEY).register((itemGroup) -> {
             itemGroup.add(ModBlocks.FOX_PLUSH.asItem());
-            itemGroup.add(ModBlocks.BAT_PLUSH.asItem());
-            itemGroup.add(ModBlocks.BEE_PLUSH.asItem());
+            itemGroup.add(ModItems.PLUSH_BASE);
         });
 
     }

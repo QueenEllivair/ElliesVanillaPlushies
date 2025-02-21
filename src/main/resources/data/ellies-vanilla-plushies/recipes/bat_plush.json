@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#BB"
+  ],
+  "key": {
+    "#": {
+      "item": "ellies-vanilla-plushies:plush_base"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "ellies-vanilla-plushies:bat_plush",
+    "count": 1
+  }
+}

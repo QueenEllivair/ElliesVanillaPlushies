@@ -23,6 +23,7 @@ public class ElliesVanillaPlushies implements ModInitializer {
 		ModItems.initialize();
 		ModBlocks.initialize();
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Plushies!!!");
 	}
+
 }
