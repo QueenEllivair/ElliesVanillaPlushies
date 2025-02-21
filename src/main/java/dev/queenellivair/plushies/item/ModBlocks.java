@@ -53,7 +53,7 @@ public class ModBlocks {
     );
 
     public static final Block BAT_PLUSH = register(
-            new Block(AbstractBlock.Settings.copy(Blocks.GLASS).sounds(BlockSoundGroup.WOOL).nonOpaque()),
+            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL).nonOpaque()),
             "bat_plush",
             true
     );
