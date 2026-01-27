@@ -41,19 +41,19 @@ public class ModBlocks {
             .build();
 
     public static final Block FOX_PLUSH = register(
-            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL).nonOpaque()),
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).nonOpaque()),
             "fox_plush",
             true
     );
 
     public static final Block BEE_PLUSH = register(
-            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL).nonOpaque()),
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).nonOpaque()),
             "bee_plush",
             true
     );
 
     public static final Block BAT_PLUSH = register(
-            new Block(AbstractBlock.Settings.copy(Blocks.WHITE_WOOL).sounds(BlockSoundGroup.WOOL).nonOpaque()),
+            new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).nonOpaque()),
             "bat_plush",
             true
     );
