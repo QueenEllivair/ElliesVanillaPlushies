@@ -2,15 +2,12 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "#R#",
+        "###",
         "###"
     ],
     "key": {
         "#": {
-            "item": "minecraft:white_wool"
-        },
-        "R": {
-            "item": "minecraft:redstone"
+            "item": "minecraft:string"
         }
     },
     "result": {
