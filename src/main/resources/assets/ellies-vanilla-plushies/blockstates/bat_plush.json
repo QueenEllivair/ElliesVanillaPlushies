@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "ellies-vanilla-plushies:block/bat_plush" }
+    "facing=north": { "model": "ellies-vanilla-plushies:block/bat_plush"},
+    "facing=south": { "model": "ellies-vanilla-plushies:block/bat_plush", "y": 180},
+    "facing=east": { "model": "ellies-vanilla-plushies:block/bat_plush", "y": 90},
+    "facing=west": { "model": "ellies-vanilla-plushies:block/bat_plush", "y": 270}
   }
 }

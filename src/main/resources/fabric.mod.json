@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "ellies-vanilla-plushies",
-	"version": "26w05a",
+	"version": "26w06a",
 	"name": "Ellie's Vanilla Plushies",
 	"description": "A Fabric 1.20.1 mod that adds plushies of vanilla mobs",
 	"authors": [
@@ -11,7 +11,7 @@
 		"homepage": "https://modrinth.com/mod/ellies-vanilla-plushes",
 		"sources": "https://github.com/QueenEllivair/ElliesVanillaPlushies"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/ellies-vanilla-plushies/icon.png",
 	"environment": "*",
 	"entrypoints": {
