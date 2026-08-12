@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P#P"
+  ],
+  "key": {
+    "#": {
+      "item": "ellies-vanilla-plushies:plush_base"
+    },
+    "B": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "item": "ellies-vanilla-plushies:axolotl_plush",
+    "count": 1
+  }
+}
