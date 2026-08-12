@@ -45,6 +45,7 @@ public class ModItems {
             itemGroup.add(ModBlocks.FOX_PLUSH.asItem());
             itemGroup.add(ModBlocks.BAT_PLUSH.asItem());
             itemGroup.add(ModBlocks.BEE_PLUSH.asItem());
+            itemGroup.add(ModBlocks.AXOLOTL_PLUSH.asItem());
             itemGroup.add(ModItems.PLUSH_BASE);
         });
 

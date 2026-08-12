@@ -58,6 +58,12 @@ public class ModBlocks {
             true
     );
 
+    public static final Block AXOLOTL_PLUSH = register(
+            new Plushie(AbstractBlock.Settings.create().sounds(BlockSoundGroup.WOOL).nonOpaque()),
+            "axolotl_plush",
+            true
+    );
+
     public static void initialize() {
 
         }
